@@ -1,0 +1,224 @@
+/* Custom style for the calendar in the Home Page */
+
+@import url('https://fonts.googleapis.com/css2?family=Cocomat+Pro:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+.calendar-wrapper {
+    padding: 20px;
+    width: 90%; /* Expand the calendar to occupy 80% of the width */
+    max-width: 1150px; /* Optional, increase the max width for larger screens */
+    max-height: 500px;
+    margin: auto; /* Center align the calendar */
+    margin-left: 90px;
+    font-family: Arial, sans-serif;
+}
+
+.calendar-title {
+    text-align: center;
+    color: #05066d;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Cocomat Pro', sans-serif; /* Apply Cocomat Pro */
+}
+
+.calendar-container {
+    width: 100%; /* Ensure the container takes up the full width of .calendar-wrapper */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.calendar-table {
+    width: 100%; /* Stretch the table to match the container's width */
+    border-collapse: collapse;
+    align-items: center;
+}
+
+.calendar-header-cell {
+    background-color: #05066d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Cocomat Pro', sans-serif; /* Apply Cocomat Pro */
+}
+
+.calendar-row {
+    border-bottom: 1px solid #ddd;
+}
+
+.calendar-cell {
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #F8F9FA;
+    border: 1px solid #ddd;
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat */
+}
+
+.calendar-cell:hover {
+    background-color: #D1ECF1;
+}
+
+.calendar-cell-today {
+    background-color: #b0c5ff; /* Highlight current day */
+    font-weight: bold;
+    color: black;
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat */
+}
+
+.calendar-cell-empty {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.calendar-selected-date {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Custom style for date picker in all pages */
+
+.custom-date-picker input {
+    height: 38px !important; /* Set the height */
+    padding: 5px;           /* Adjust padding for better alignment */
+    font-size: 17px;        /* Adjust font size */
+    border: 1px solid #ccc; /* Optional: Subtle border */
+    border-radius: 5px;     /* Optional: Rounded corners */
+    box-sizing: border-box; /* Ensure consistent sizing */
+    width: 250px;
+}
+
+/* Custom style for home page date picker */
+
+.custom-date-picker-home input {
+    height: 38px !important; /* Set the height */
+    padding: 5px;           /* Adjust padding for better alignment */
+    font-size: 17px;        /* Adjust font size */
+    border: 1px solid #ccc; /* Optional: Subtle border */
+    border-radius: 5px;     /* Optional: Rounded corners */
+    box-sizing: border-box; /* Ensure consistent sizing */
+    width: 300px;
+}
+
+/* Styling for the navigation links and logo */
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;  /* Title on the left, links on the right */
+    align-items: center;  /* Vertically center items */
+    background-color: #b0c5ff;  /* Light blue background */
+    padding: -10px -20px;  /* Padding for the header */
+    color: #05066d;  /* Text color */
+    font-family: 'Cocomat Pro', sans-serif;  /* Font family */
+}
+
+/* Title and Image Container Styling */
+.title-container {
+    display: flex;
+    align-items: center;  /* Vertically align the image and text */
+}
+
+/* Logo Image Styling */
+.logo {
+    height: 130px;  /* Set the height of the image */
+    width: 90px;
+    margin-right: 0px;  /* Space between the image and the title */
+    margin-left: 20px;
+}
+
+/* Title Styling */
+.title {
+    font-size: 24px;  /* Font size for the title */
+    font-weight: bold;  /* Bold title */
+    padding-left: 10px;  /* Padding left for title */
+    margin-left: 0px;  /* Adjust the left margin to balance the title positioning */
+    margin-right: -40px;
+}
+
+/* Navigation Links Container */
+.navLinks {
+    display: flex;
+    justify-content: space-between;  /* Spread the links evenly */
+    width: 65%;  /* Limit the width to a percentage of the header */
+}
+
+/* Base Link Styling */
+.link, .linkLast {
+    display: block;  /* Make links block-level */
+    color: #05066d;  /* Default font color */
+    text-decoration: none;  /* Remove underline from links */
+    font-size: 18px;  /* Font size for links */
+    padding: 60px 0;  /* Equal padding top and bottom for consistent height */
+    width: 100%;  /* Make each link take up equal space */
+    text-align: center;  /* Horizontally center text inside each link */
+    flex-grow: 1;  /* Allow links to grow and fill the container */
+    box-sizing: border-box;  /* Include padding and border in width calculation */
+}
+
+/* Hover Effect */
+.link:hover, .linkLast:hover {
+    background-color: #acacac;  /* Change background color on hover */
+    color: #ffffff;  /* Change font color to white on hover */
+}
+
+/* Submenu container styling */
+.submenu-container1{
+    display: flex;
+    flex-direction: column; /* Stack the submenu links vertically */
+    background-color: #b0c5ff; /* Light grey background for the submenu */
+    border: 1px solid #b0c5ff; /* Light border around the submenu */
+    padding: 10px; /* Space around the links */
+    font-size: 20px;
+    margin-top: -1px; /* Space below the navigation bar */
+    margin-left: 1098px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 250px; /* Set width of the submenu */
+}
+
+/* Submenu container styling */
+.submenu-container2 {
+    display: flex;
+    flex-direction: column; /* Stack the submenu links vertically */
+    background-color: #b0c5ff; /* Light grey background for the submenu */
+    border: 1px solid #b0c5ff; /* Light border around the submenu */
+    padding: 10px; /* Space around the links */
+    font-size: 20px;
+    margin-top: -1px; /* Space below the navigation bar */
+    margin-left: 748px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 250px; /* Set width of the submenu */
+}
+
+/* Submenu link styling */
+.submenu-link {
+    display: block; /* Make each link take up full width */
+    color: #05066d; /* Default text color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px; /* Font size for submenu links */
+    padding: 8px 12px; /* Padding inside each link */
+    border-radius: 3px; /* Rounded edges for links */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+}
+
+/* Hover effect for submenu links */
+.submenu-link:hover {
+    background-color: #acacac; /* Light blue background on hover */
+    color: white; /* White text on hover */
+}
+
+/* Active link styling */
+.submenu-link.active{
+    background-color: #05066d; /* Dark blue background for active link */
+    color: #ffffff; /* White text for active link */
+    font-weight: bold; /* Highlight active link with bold text */
+}
+
+/* Styling for Dropdowns in  Add Appointment */
+
+.medical-service-container {
+    height: 20px;
+}
