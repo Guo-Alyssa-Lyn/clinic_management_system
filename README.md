@@ -18,5 +18,5 @@ This website is a client-focused project designed to streamline the management o
 
 ## Documentation and Screenshots
 
-[Download Documentation](https://drive.google.com/drive/folders/1jMfjVz0x3OotPpHKir7b5xgak5p-Fc5Z?usp=sharing)
+[Download Documentation](https://docs.google.com/document/d/16LRz3mJKg64m_sDEjC7BRekuw7sfv7hQ/edit)
 
